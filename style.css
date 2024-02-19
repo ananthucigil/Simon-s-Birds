@@ -1,0 +1,81 @@
+h1{
+    font-size: 3rem;
+}
+
+.terence{
+   display:none; 
+   position :absolute;
+   left:40%;
+   top: 25%;
+   z-index: 1;
+   width: 20%;
+   animation: 3s linear infinite giant;  
+}
+@keyframes giant{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.5);
+    }
+    50%{
+        transform: scale(2);
+    }
+    75%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.normal{
+    
+    background: linear-gradient(180deg, rgb(98, 188, 224),rgb(75, 221, 75));
+}
+.danger{
+    animation: .5s linear infinite danger;
+}
+@keyframes danger{
+  0%{
+    background-color: blue;
+  }
+  50%{
+    background-color: red;
+  }
+  100%{
+   background-color: blue;
+  }
+}
+
+.red{
+    background-color: rgb(255, 63, 63);
+}
+.chuck{
+    background-color: rgb(216, 216, 54);
+}
+.bomb{
+    background-color: rgb(47, 45, 45);
+}
+.blue{
+    background-color: rgb(8, 138, 190);
+}
+.matilda{
+    background-color: pink;
+}
+.hal{
+    background-color: rgb(0, 128, 0);
+}
+.container-fluid{
+    height: 100vh;
+}
+.birds{
+    height: 40vh;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: 2% ;
+   
+}
+.row{
+    margin-left: 8%;
+}
+
